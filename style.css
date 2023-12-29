@@ -1,0 +1,68 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-size: 2em;
+}
+body {
+  cursor: pointer;
+  background: radial-gradient(circle at center, #51519a 50%, #4f7d4f 100%);
+  font-family: Arial, sans-serif;
+}
+#head{
+  background-color: #ffd700;
+  padding: 10px;
+  border-radius: 30px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+  margin: 20px auto;
+  width: 60%;
+}
+#myInput {
+  width: 75%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 40px;
+}
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  width: 75%;
+  
+}
+#myUL li {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: greenyellow;
+  border: 5px solid #0d0d0d;
+  transition-duration: 0.4s;
+  border-radius: 40px;
+}
+#myUL li:hover {
+  background-color: #c0dec0;
+}
+
+.close {
+  margin-left: 15px;
+  color: #f44336;
+  cursor: pointer;
+  float: right;
+}
+button {
+  width: 120px; 
+  height: 40px; 
+  border-radius: 25px; 
+  background-color: #4CAF50; 
+  color: white; 
+  font-size: 0.8em;  
+  border: none; 
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2d49d7;
+  color: white;
+  transform: scale(1.1);
+  transition: transform 0.3s ease; 
+}
+
